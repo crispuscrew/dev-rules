@@ -11,5 +11,5 @@ Working here, follow the topics that apply:
 Repo-specific:
 
 - Markdown for humans **and** AI. One topic per file; keep each terse.
-- Everyone topics (`principles`, `tech/git`, `tech/containers`), AI-only (`agent`), project deltas (`variants/`).
+- Everyone topics (`principles`, `tech/git`, `tech/containers`, `tech/make`), AI-only (`agent`), project deltas (`variants/`).
 - Deltas never repeat an everyone rule. A change here ripples to every downstream project — edit deliberately.
