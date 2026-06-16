@@ -6,6 +6,7 @@ Development rules for humans to read and AI to follow. Short by design: minutes 
 
 **Everyone (humans + AI):**
 - `principles.md` — values: integrity, security, stability, approval, verify
+- `code.md` — naming, clarity, correctness for any language
 - `tech/git.md` — branches & commits
 - `tech/containers.md` — Podman, images, least privilege
 - `tech/make.md` — Makefile as entry point, self-documenting help
@@ -29,6 +30,7 @@ Vendor this repo as `dev-rules/`, then in the project's `CLAUDE.md` import the t
 
 ```
 @dev-rules/principles.md
+@dev-rules/code.md
 @dev-rules/tech/git.md
 @dev-rules/tech/containers.md
 @dev-rules/tech/make.md
