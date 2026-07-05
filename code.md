@@ -14,6 +14,7 @@ Language-agnostic rules for any code, human- or AI-written. Per-language style l
 - **Name constants** — `MAX_RETRIES = 3`, never a bare literal.
 - **Prefer clear code to comments** — a good name or structure beats a comment; comment only the non-obvious *why*. Docs and comments: the bare minimum that's still sufficient, never restating the code.
 - **No dead code** — delete the unused and the commented-out; git remembers it.
+- **No ASCII trees or art in docs** — no ASCII-drawn directory trees, diagrams, or banners in READMEs and docs; describe the structure in prose or a list.
 - **Match surrounding style** — consistency within a file beats personal taste.
 
 ## Correctness
