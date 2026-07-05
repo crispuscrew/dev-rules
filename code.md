@@ -3,7 +3,7 @@
 Language-agnostic rules for any code, human- or AI-written. Per-language style lives elsewhere; these hold everywhere.
 
 ## Naming
-- **At least 3 characters, a real word** — `str` not `s`, `count` not `c`, `iter` not `i` for loop counters. No one- or two-letter names; `_` only for a deliberately unused binding.
+- **At least 3 characters, a meaningful word or well-known abbreviation** — `str` not `s`, `count` not `c`, `iter` not `i` for loop counters. No one- or two-letter names; `_` only for a deliberately unused binding.
 - **Name for intent** — the role is clear from the name alone (`userCount`, not `n` or `tmp`).
 - **One word per concept** — don't alias `user`/`account`/`member` for the same thing.
 

@@ -32,3 +32,6 @@ The single home for branching, commits, and history — variants point here inst
   hotfix/*                   →  main   (maintainer/owner only)
   ```
 - **strict** — team flow, plus: don't commit AI tool config (`CLAUDE.md`, `.cursor/`, `.aider*`, copilot instructions); load rules from `~/.claude/` so the repo stays NDA-portable.
+
+## Release is frozen
+- A cut `release/*` is **immutable** — no fixes, no cherry-picks onto it. To change anything in a release, reject it wholesale: land the change in `dev`, cut a **fresh** `release/*`, and re-run the full release check from scratch. Never patch a release in place.
